@@ -3,6 +3,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 // Components
 import Navbar from '../components/Navbar';
+import Sidebar from '../components/Sidebar';
 // Chakra
 import { Grid, GridItem } from '@chakra-ui/react';
 
@@ -16,7 +17,7 @@ export default function Layout() {
         minHeight={{ lg: '100vh' }}
         p={{ base: '20px', lg: '30px' }}
       >
-        <span>Sidebar</span>
+        <Sidebar />
       </GridItem>
 
       <GridItem as="main" colSpan="5" p="40px">
