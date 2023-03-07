@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "task_manager",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
